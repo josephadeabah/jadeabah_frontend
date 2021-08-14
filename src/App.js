@@ -25,7 +25,7 @@ import { fetchAllProducts } from './features/products/productsSlice'
 import {Elements} from '@stripe/react-stripe-js'
 import {loadStripe} from '@stripe/stripe-js'
 
-const promise = loadStripe('pk_test_51I904uBSQJkm3JDXKbckPcWBdvtxBy53ZWHJPlU802XUsXyP4cLr6bwOqhvwYu5itpHPwgkBmye8MkaVFil4c4lp00IDOUmarR');
+const promise = loadStripe('PASTE_STRIPE_KEY_HERE');
 
 const App = () => {
   const dispatch = useDispatch()
